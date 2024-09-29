@@ -14,6 +14,8 @@ RUN apt-get update ; apt-get -y --no-install-recommends install \
 
 RUN update-alternatives --install /usr/bin/python python /usr/bin/python3.7 1
 
+RUN git config --global --add safe.directory '*'
+
 # build environment
 ARG ddr=2400
 ENV DDR_SPEED=$ddr
