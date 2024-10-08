@@ -1,6 +1,6 @@
 [submodule "build/arm-trusted-firmware"]
 	path = build/arm-trusted-firmware
-	url = https://github.com/SolidRun/arm-trusted-firmware.git
+	url = https://github.com/ndoo/sr-arm-trusted-firmware.git
 	branch = v2.5-lx2160acex7
 [submodule "build/ddr-phy-binary"]
 	path = build/ddr-phy-binary
